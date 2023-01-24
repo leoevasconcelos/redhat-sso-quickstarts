@@ -83,7 +83,7 @@ Next, configure the OIDC adapter via the Red Hat SSO client adapter subsystem. T
 * Select `Keycloak OIDC JBoss Subsystem XML`
 * Copy the XML snippet to the clipboard
 * Open `WILDFLY_HOME/standalone/configuration/standalone.xml` in an editor
-* Locate the element `<subsystem xmlns="urn:jboss:domain:keycloak:1.1"/>` and add the above snippet as a child element. For example:
+* Locate the element `<subsystem xmlns="urn:jboss:domain:keycloak:1.1"/>` and add the below snippet as a child element. For example:
 
   ````
   <subsystem xmlns="urn:jboss:domain:keycloak:...">
