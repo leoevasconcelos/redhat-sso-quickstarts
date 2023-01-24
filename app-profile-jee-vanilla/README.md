@@ -114,3 +114,5 @@ Undeploy the Quickstart
    ````
    mvn wildfly:undeploy
    ````
+Install de adapter to RHSSO
+https://access.redhat.com/documentation/en-us/red_hat_single_sign-on/7.0/html/getting_started_guide/securing_a_jboss_servlet_application
